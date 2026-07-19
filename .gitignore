@@ -1,24 +1,30 @@
+# Project data
 dataset/
+models/
 build/
 dist/
-models/
 
+# Python
 __pycache__/
 *.pyc
 
+# Virtual environments
 venv/
 .venv/
 
-*.wav
-*.mp3
+# Model files
 *.pth
 *.pt
 *.h5
 
+# IDEs
 .vscode/
 .idea/
 
+# Logs
 *.log
+
+# Project-specific
 project_tree.txt
 reports/dissertation_draft/
 app/audio_forensics_core - Copy.py
