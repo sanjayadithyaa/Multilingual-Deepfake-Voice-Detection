@@ -1,0 +1,47 @@
+Run time: 2026-04-27T08:33:19.007648
+Test samples: 3000
+
+Overall Comparison:
+            model  accuracy  precision_fake  recall_fake  f1_fake
+RandomForest_MFCC     0.976         0.98374     0.968000 0.975806
+       CNN_LogMel     0.992         0.98939     0.994667 0.992021
+
+Random Forest Classification Report:
+              precision    recall  f1-score   support
+
+        real     0.9685    0.9840    0.9762      1500
+        fake     0.9837    0.9680    0.9758      1500
+
+    accuracy                         0.9760      3000
+   macro avg     0.9761    0.9760    0.9760      3000
+weighted avg     0.9761    0.9760    0.9760      3000
+
+
+CNN Classification Report:
+              precision    recall  f1-score   support
+
+        real     0.9946    0.9893    0.9920      1500
+        fake     0.9894    0.9947    0.9920      1500
+
+    accuracy                         0.9920      3000
+   macro avg     0.9920    0.9920    0.9920      3000
+weighted avg     0.9920    0.9920    0.9920      3000
+
+
+Random Forest Language-wise Accuracy:
+kannada: 0.9620 (1000 samples)
+malayalam: 0.9920 (1000 samples)
+tamil: 0.9740 (1000 samples)
+
+CNN Language-wise Accuracy:
+kannada: 0.9870 (1000 samples)
+malayalam: 0.9980 (1000 samples)
+tamil: 0.9910 (1000 samples)
+
+Paired Model Comparison (McNemar-style summary):
+RF correct / CNN wrong: 20
+RF wrong / CNN correct: 68
+Continuity-corrected chi-square: 25.1023
+Chi-square p-value: 0.000001
+Exact binomial p-value: 0.000000
+Higher 'rf_wrong_cnn_correct' than 'rf_correct_cnn_wrong' favors the CNN.

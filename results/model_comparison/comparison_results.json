@@ -1,0 +1,19 @@
+{
+  "n_common_samples": 3000,
+  "Random_Forest_auc": 0.9905793333333334,
+  "CNN_auc": 0.9971973333333334,
+  "CNN_minus_Random_Forest_auc": 0.006618000000000013,
+  "mcnemar_test": {
+    "a_correct_b_wrong": 20,
+    "a_wrong_b_correct": 68,
+    "n_discordant": 88,
+    "p_value": 2.770265657008098e-07,
+    "decision_alpha_0_05": "Reject H0"
+  },
+  "auc_difference_bootstrap": {
+    "auc_diff_mean_bootstrap": 0.0066535340914741685,
+    "auc_diff_ci_lower": 0.002809507386458599,
+    "auc_diff_ci_upper": 0.010874670911868835
+  },
+  "interpretation": "CNN is significantly better on paired classification decisions."
+}

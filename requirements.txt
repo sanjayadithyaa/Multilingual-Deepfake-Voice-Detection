@@ -1,0 +1,13 @@
+datasets>=2.19.0
+huggingface_hub>=0.23.0
+joblib>=1.4.0
+librosa>=0.10.0
+numpy>=1.24.0
+pandas>=2.0.0
+reportlab>=4.2.0
+scikit-learn>=1.4.0
+scipy>=1.13.0
+soundfile>=0.12.1
+tqdm>=4.66.0
+torch
+transformers>=4.41.0

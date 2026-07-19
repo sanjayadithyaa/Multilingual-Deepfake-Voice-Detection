@@ -1,0 +1,74 @@
+{
+  "run_time": "2026-04-27T08:33:19.007648",
+  "test_samples": 3000,
+  "random_forest": {
+    "accuracy": 0.976,
+    "precision_fake": 0.983739837398374,
+    "recall_fake": 0.968,
+    "f1_fake": 0.9758064516129032,
+    "confusion_matrix": [
+      [
+        1476,
+        24
+      ],
+      [
+        48,
+        1452
+      ]
+    ],
+    "classification_report": "              precision    recall  f1-score   support\n\n        real     0.9685    0.9840    0.9762      1500\n        fake     0.9837    0.9680    0.9758      1500\n\n    accuracy                         0.9760      3000\n   macro avg     0.9761    0.9760    0.9760      3000\nweighted avg     0.9761    0.9760    0.9760      3000\n",
+    "language_wise_accuracy": {
+      "kannada": {
+        "accuracy": 0.962,
+        "count": 1000
+      },
+      "malayalam": {
+        "accuracy": 0.992,
+        "count": 1000
+      },
+      "tamil": {
+        "accuracy": 0.974,
+        "count": 1000
+      }
+    }
+  },
+  "cnn_logmel": {
+    "accuracy": 0.992,
+    "precision_fake": 0.9893899204244032,
+    "recall_fake": 0.9946666666666667,
+    "f1_fake": 0.9920212765957447,
+    "confusion_matrix": [
+      [
+        1484,
+        16
+      ],
+      [
+        8,
+        1492
+      ]
+    ],
+    "classification_report": "              precision    recall  f1-score   support\n\n        real     0.9946    0.9893    0.9920      1500\n        fake     0.9894    0.9947    0.9920      1500\n\n    accuracy                         0.9920      3000\n   macro avg     0.9920    0.9920    0.9920      3000\nweighted avg     0.9920    0.9920    0.9920      3000\n",
+    "language_wise_accuracy": {
+      "kannada": {
+        "accuracy": 0.987,
+        "count": 1000
+      },
+      "malayalam": {
+        "accuracy": 0.998,
+        "count": 1000
+      },
+      "tamil": {
+        "accuracy": 0.991,
+        "count": 1000
+      }
+    }
+  },
+  "mcnemar_summary": {
+    "rf_correct_cnn_wrong": 20,
+    "rf_wrong_cnn_correct": 68,
+    "continuity_corrected_chi_square": 25.102272727272727,
+    "chi_square_p_value": 5.43687419012342e-07,
+    "exact_binomial_p_value": 2.770265657008098e-07,
+    "interpretation": "Higher 'rf_wrong_cnn_correct' than 'rf_correct_cnn_wrong' favors the CNN."
+  }
+}

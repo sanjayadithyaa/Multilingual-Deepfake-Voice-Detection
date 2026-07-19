@@ -1,0 +1,17 @@
+{
+  "model_name": "Random_Forest",
+  "n_samples": 3000,
+  "threshold": 0.5,
+  "accuracy": 0.976,
+  "precision_fake": 0.983739837398374,
+  "recall_fake": 0.968,
+  "f1_fake": 0.9758064516129032,
+  "roc_auc": 0.9905793333333334,
+  "tn": 1476,
+  "fp": 24,
+  "fn": 48,
+  "tp": 1452,
+  "auc_mean_bootstrap": 0.9905125893909358,
+  "auc_ci_lower": 0.9861207590432568,
+  "auc_ci_upper": 0.9944316053844544
+}

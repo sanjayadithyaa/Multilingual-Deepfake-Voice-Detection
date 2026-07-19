@@ -1,0 +1,24 @@
+dataset/
+build/
+dist/
+models/
+
+__pycache__/
+*.pyc
+
+venv/
+.venv/
+
+*.wav
+*.mp3
+*.pth
+*.pt
+*.h5
+
+.vscode/
+.idea/
+
+*.log
+project_tree.txt
+reports/dissertation_draft/
+app/audio_forensics_core - Copy.py

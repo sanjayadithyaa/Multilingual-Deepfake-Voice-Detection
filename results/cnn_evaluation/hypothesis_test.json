@@ -1,0 +1,8 @@
+{
+  "test_name": "Mann-Whitney U",
+  "null_hypothesis": "Fake and real files have the same score distribution.",
+  "alternative_hypothesis": "Fake files have higher fake-class scores than real files.",
+  "u_statistic": 2243694.0,
+  "p_value": 0.0,
+  "decision_alpha_0_05": "Reject H0"
+}
