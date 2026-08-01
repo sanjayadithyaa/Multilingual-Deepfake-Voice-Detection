@@ -1,0 +1,30 @@
+{
+  "test_accuracy": 0.976,
+  "confusion_matrix": [
+    [
+      1476,
+      24
+    ],
+    [
+      48,
+      1452
+    ]
+  ],
+  "language_wise_accuracy": {
+    "kannada": {
+      "accuracy": 0.962,
+      "count": 1000
+    },
+    "malayalam": {
+      "accuracy": 0.992,
+      "count": 1000
+    },
+    "tamil": {
+      "accuracy": 0.974,
+      "count": 1000
+    }
+  },
+  "train_samples": 2000,
+  "test_samples": 3000,
+  "feature_dim": 32
+}

@@ -1,0 +1,28 @@
+Run time: 2026-04-24T12:03:04.666646
+
+Metadata: D:\Final_Year_Project\Deepfake_Dissertation\dataset\metadata\metadata_standardized.csv
+Train samples: 2000
+Test samples: 3000
+Feature dimension: 32
+
+Test Accuracy: 0.9760
+
+Classification Report:
+              precision    recall  f1-score   support
+
+        real     0.9685    0.9840    0.9762      1500
+        fake     0.9837    0.9680    0.9758      1500
+
+    accuracy                         0.9760      3000
+   macro avg     0.9761    0.9760    0.9760      3000
+weighted avg     0.9761    0.9760    0.9760      3000
+
+
+Confusion Matrix:
+[[1476   24]
+ [  48 1452]]
+
+Language-wise Accuracy:
+kannada: 0.9620 (1000 samples)
+malayalam: 0.9920 (1000 samples)
+tamil: 0.9740 (1000 samples)

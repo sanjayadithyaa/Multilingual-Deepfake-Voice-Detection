@@ -1,0 +1,26 @@
+Run time: 2026-04-25T12:05:29.651498
+Device: cuda
+Metadata: D:\Final_Year_Project\Deepfake_Dissertation\dataset\metadata\metadata_standardized.csv
+Train samples: 2000
+Test samples: 3000
+Best Test Accuracy: 0.9920
+
+Classification Report:
+              precision    recall  f1-score   support
+
+        real     0.9946    0.9893    0.9920      1500
+        fake     0.9894    0.9947    0.9920      1500
+
+    accuracy                         0.9920      3000
+   macro avg     0.9920    0.9920    0.9920      3000
+weighted avg     0.9920    0.9920    0.9920      3000
+
+
+Confusion Matrix:
+[[1484   16]
+ [   8 1492]]
+
+Language-wise Accuracy:
+kannada: 0.9870 (1000 samples)
+malayalam: 0.9980 (1000 samples)
+tamil: 0.9910 (1000 samples)

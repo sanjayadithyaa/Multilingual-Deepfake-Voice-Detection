@@ -1,30 +1,45 @@
-# Project data
+# ==========================
+# Project Data
+# ==========================
 dataset/
-models/
 build/
 dist/
 
+# ==========================
 # Python
+# ==========================
 __pycache__/
-*.pyc
+*.py[cod]
+*$py.class
 
-# Virtual environments
+# ==========================
+# Virtual Environments
+# ==========================
 venv/
 .venv/
+env/
+ENV/
 
-# Model files
-*.pth
-*.pt
-*.h5
-
-# IDEs
+# ==========================
+# IDE Settings
+# ==========================
 .vscode/
 .idea/
 
+# ==========================
 # Logs
+# ==========================
 *.log
 
-# Project-specific
+# ==========================
+# Temporary / Generated Files
+# ==========================
 project_tree.txt
+filter.txt
+tkinter.txt
+
+# ==========================
+# Project-specific
+# ==========================
 reports/dissertation_draft/
 app/audio_forensics_core - Copy.py
